@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="parent" scope="prototype" class="com.xiaolee.demo.beans.Parent">-->
+<!--        <constructor-arg name="name" value="parent"/>-->
+<!--&lt;!&ndash;        <property name="name" value="parent"></property>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="child" class="com.xiaolee.demo.beans.Child" autowire="byType">-->
+<!--    </bean>-->
+
+    <bean id="component1" class="com.xiaolee.demo.beans.Component1" autowire="byName">
+
+    </bean>
+
+<!--    <bean id="factory" class="com.xiaolee.demo.beans.ChildFactory">-->
+
+<!--    </bean>-->
+
+    <bean id="component2" class="com.xiaolee.demo.beans.Component2">
+
+    </bean>
+</beans>
