@@ -12,8 +12,8 @@ public class Component1 {
     @Valid
     public String name;
 
-    @Autowired
-    private Component2 component2;
+//    @Autowired
+//    private Component2 component2;
 
 //    public Component2 getComponent2() {
 //        return component2;
@@ -33,7 +33,6 @@ public class Component1 {
     @Override
     public String toString() {
         return "Component1{" +
-                "component2=" + component2 +
                 '}';
     }
 }

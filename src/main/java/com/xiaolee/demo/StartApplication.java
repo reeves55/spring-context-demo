@@ -28,7 +28,7 @@ import java.lang.annotation.Annotation;
 //@ComponentScan(basePackages = {"com.xiaolee.demo"})
 //@PropertySource(value = {"classpath:application.properties"})
 //@Import(Component2.class)
-@EnableAutoConfiguration
+@SpringBootApplication
 public class StartApplication {
     public static void main(String[] args) {
 //        ValidatorFactory validFactory = Validation.buildDefaultValidatorFactory();

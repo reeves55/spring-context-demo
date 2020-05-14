@@ -1,13 +1,18 @@
 package com.xiaolee.demo.beans;
 
+import javax.validation.constraints.NotNull;
+
 public class Child {
+    @NotNull
     String name;
+
+    @NotNull
     int age;
 
-    public Child(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+//    public Child(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//    }
 
     public String getName() {
         return name;
